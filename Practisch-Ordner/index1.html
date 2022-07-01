@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/ede1537b49.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./nav.css" />
+    <link rel="stylesheet" href="./kontakt.css" />
+    <link rel="stylesheet" href="./angebot.css" />
+    <link rel="stylesheet" href="./up.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html ,body{
+    max-width:100vw;
+}
+body{
+background-color:silver;
+background-attachment: fixed;}
+.callme{
+ display: flex;
+}
+.kontakt{
+    margin: 10px;
+}
+a{
+    color: brown;
+}
+.haupt{
+    width: 100%;
+    height: 35px;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    color: brown;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    z-index: 10;
+}
+.waren{
+    margin-right: 30px;
+    font-weight: 900;
+}
+.kat{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+    margin: 30px;
+}
+
+.opt{
+    background-color: rgba(255, 255, 255, 0.547);
+}
+.opt img{
+    width: 100%;
+    height: 70%;
+}
+input{
+    border: none;
+}
+select{
+    border: none;
+}
+option{
+transition: 7s;
+}
+select:hover option{
+    background-color: chocolate;
+}
+    </style>
+    <title>Ausstattung</title>
+  </head>
+  <body id="gotop">
+    <section class="haupt">
+      <div class="callme">
+        <p class="kontakt">🇩🇪 Deutschland</p>
+        <p class="kontakt">
+          <a href="tel:0123456789"><i class="fa-solid fa-headset"></i></a>
+        </p>
+        <p class="kontakt">
+          <a href="mailto:exampel@gmail.com"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+        </p>
+      </div>
+      <div class="waren"><i class="fa-solid fa-basket-shopping"></i></div>
+    </section>
+    <header class="hauptnav">
+      <img src="./logo.png" alt="" />
+      <nav class="choose">
+        Wohnzimmer
+        <ul class="list">
+          <li>0000000</li>
+          <li>0000000</li>
+          <li>000000</li>
+        </ul>
+      </nav>
+      <nav class="choose">Esszimmer</nav>
+      <nav class="choose">Schlafzimmer</nav>
+      <nav class="choose">
+        Badzimmer
+        <ul class="list">
+          <li>0000000</li>
+          <li>0000000</li>
+          <li>000000</li>
+        </ul>
+      </nav>
+      <nav class="choose">Kinderzimmer</nav>
+    </header>
+    <section class="angebot">
+      <div class="firstone">
+        <iframe
+          src="https://momento360.com/e/u/df2c88cdae02423aa6f0b7e44f598010?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium"
+          frameborder="0"
+        ></iframe>
+      </div>
+    </section>
+    <div class="up">
+      <a id="up" href="#gotop"><i class="fa-solid fa-angles-up"></i></a>
+    </div>
+    <section class="kat">
+      <div class="opt">
+        <img
+          src="https://images.unsplash.com/photo-1616627561839-074385245ff6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJlZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+          alt=""
+        />
+        <label for="">color</label>
+        <input type="color">
+        <select name="MASSEN" id="">
+          <option value="">90cm</option>
+          <option value="">140cm</option>
+          <option value="">160cm</option>
+          <option value="">180cm</option>
+          <option value="">200cm</option>
+        </select>
+      </div>
+      <div class="opt">
+        <img
+          src="https://images.unsplash.com/photo-1616627561839-074385245ff6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJlZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+          alt=""
+        />
+      </div>
+      <div class="opt">
+        <img
+          src="https://images.unsplash.com/photo-1616627561839-074385245ff6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJlZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+          alt=""
+        />
+      </div>
+      <div class="opt">
+        <img
+          src="https://images.unsplash.com/photo-1616627561839-074385245ff6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJlZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+          alt=""
+        />
+      </div>
+      <div class="opt">
+        <img
+          src="https://images.unsplash.com/photo-1616627561839-074385245ff6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJlZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+          alt=""
+        />
+      </div>
+      <div class="opt">
+        <img
+          src="https://images.unsplash.com/photo-1616627561839-074385245ff6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJlZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+          alt=""
+        />
+      </div>
+      <div class="opt">
+        <img
+          src="https://images.unsplash.com/photo-1616627561839-074385245ff6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJlZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+          alt=""
+        />
+      </div>
+      <div class="opt">
+        <img
+          src="https://images.unsplash.com/photo-1616627561839-074385245ff6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJlZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+          alt=""
+        />
+      </div>
+      <div class="opt">
+        <img
+          src="https://images.unsplash.com/photo-1616627561839-074385245ff6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJlZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+          alt=""
+        />
+      </div>
+      <div class="opt">
+        <img
+          src="https://images.unsplash.com/photo-1616627561839-074385245ff6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJlZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+          alt=""
+        />
+      </div>
+      <div class="opt">
+        <img
+          src="https://images.unsplash.com/photo-1616627561839-074385245ff6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJlZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+          alt=""
+        />
+      </div>
+      <div class="opt">
+        <img
+          src="https://images.unsplash.com/photo-1616627561839-074385245ff6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJlZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+          alt=""
+        />
+      </div>
+      <div class="opt">
+        <img
+          src="https://images.unsplash.com/photo-1616627561839-074385245ff6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJlZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+          alt=""
+        />
+      </div>
+      <div class="opt">
+        <img
+          src="https://images.unsplash.com/photo-1616627561839-074385245ff6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJlZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+          alt=""
+        />
+      </div>
+      <div class="opt">
+        <img
+          src="https://images.unsplash.com/photo-1616627561839-074385245ff6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJlZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+          alt=""
+        />
+
+      </div>
+    </section>
+  </body>
+</html>
+      

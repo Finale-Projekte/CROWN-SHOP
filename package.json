@@ -1,0 +1,23 @@
+{
+  "name": "CROWN-SHOP",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass -w scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Finale-Projekte/CROWN-SHOP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Finale-Projekte/CROWN-SHOP/issues"
+  },
+  "homepage": "https://github.com/Finale-Projekte/CROWN-SHOP#readme",
+  "dependencies": {
+    "sass": "^1.53.0"
+  },
+  "description": ""
+}
