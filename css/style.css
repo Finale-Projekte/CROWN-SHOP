@@ -10,6 +10,8 @@ header {
   justify-content: space-between;
   align-items: center;
   box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.852), 0 4px 15px 1px rgba(0, 157, 255, 0.823);
+  position: fixed;
+  width: 100%;
 }
 
 header div a {
@@ -55,24 +57,32 @@ i:hover {
 nav {
   display: flex;
   flex-direction: column;
-  gap: 4.5rem;
+  gap: 9.5%;
   background-color: rgba(56, 56, 79, 0.519);
   position: fixed;
   text-align: center;
   height: 100%;
-  margin-top: 0.5rem;
+  margin-top: 5.9rem;
+  padding: 1rem;
 }
 
 .nav-links {
   text-decoration: none;
   color: black;
-  padding: 1rem;
+  padding: 0.25rem;
 }
 
 .nav-links:hover {
   color: gold;
   transition: 0.5s;
-  background-color: rgba(245, 245, 220, 0.187);
+  background-color: rgba(245, 245, 220, 0.146);
+  border-radius: 0.6rem;
+}
+
+@media (max-width: 200px) {
+  nav {
+    margin-top: 7rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
