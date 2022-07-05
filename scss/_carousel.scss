@@ -1,0 +1,152 @@
+section {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  margin-top: 5.8rem;
+}
+.main-carousel {
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  position: relative;
+}
+.main-carousel img {
+  max-width: 100%;
+  position: absolute;
+  
+}               
+main{
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// @media
+@media (max-width: 200px) {
+  section {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 5.8rem;
+  }
+  .main-carousel {
+    padding: 0.6rem;
+  }
+}
+@media (min-width: 200px) and (max-width: 400px) {
+  .main-carousel {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+  }
+}
